@@ -8,13 +8,15 @@ app_logo_url = "/assets/nexerp/images/nexicon.jpg"
 app_home = "/desk"
 
 
-# Only export Dashboard via fixtures (Workspace + Sidebar inserted via after_migrate)
 fixtures = [
     {"dt": "Dashboard", "filters": [["name", "in", ["NexERP Dashboard"]]]},
     {"dt": "Workspace", "filters": [["name", "in", ["NexERP"]]]},
     {"dt": "Workspace Sidebar", "filters": [["name", "in", ["NexERP"]]]},
 ]
 
+app_include_js = "/assets/nexerp/js/sidebar_lock.js"
+
+boot_session = ["nexerp.api.override_sidebar_data"]
 
 after_migrate = ["nexerp.setup.sync_nexerp_fixtures"]
 after_install = ["nexerp.setup.sync_nexerp_fixtures"]
@@ -39,7 +41,7 @@ after_install = ["nexerp.setup.sync_nexerp_fixtures"]
 # ------------------
 
 # include js, css files in header of desk.html
-app_include_js = "/assets/nexerp/js/sidebar_lock.js"
+
 
 # include js, css files in header of web template
 # web_include_css = "/assets/nexerp/css/nexerp.css"
@@ -108,7 +110,7 @@ app_include_js = "/assets/nexerp/js/sidebar_lock.js"
 
 # boot_session
 # ------------
-boot_session = ["nexerp.api.override_sidebar_data"]
+
 
 # Integration Setup
 # ------------------
