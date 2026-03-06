@@ -11,11 +11,13 @@ app_home = "/desk"
 # Only export Dashboard via fixtures (Workspace + Sidebar inserted via after_migrate)
 fixtures = [
     {"dt": "Dashboard", "filters": [["name", "in", ["NexERP Dashboard"]]]},
+    {"dt": "Workspace", "filters": [["name", "in", ["NexERP"]]]},
+    {"dt": "Workspace Sidebar", "filters": [["name", "in", ["NexERP"]]]},
 ]
 
 
-after_migrate = ["nexerp.setup.sync_nexerp_fixtures"]
-after_install = ["nexerp.setup.sync_nexerp_fixtures"]
+# after_migrate = ["nexerp.setup.sync_nexerp_fixtures"]
+# after_install = ["nexerp.setup.sync_nexerp_fixtures"]
 
 # Apps
 # ------------------
