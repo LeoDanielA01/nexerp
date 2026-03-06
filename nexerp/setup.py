@@ -300,6 +300,7 @@ def _upsert_workspace(content_blocks, links):
             doc.name = name
 
         doc.label = name
+        doc.title = name
         doc.app = "nexerp"
         doc.icon = "grid"
         doc.is_hidden = 0
