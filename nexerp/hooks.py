@@ -16,8 +16,8 @@ fixtures = [
 ]
 
 
-# after_migrate = ["nexerp.setup.sync_nexerp_fixtures"]
-# after_install = ["nexerp.setup.sync_nexerp_fixtures"]
+after_migrate = ["nexerp.setup.sync_nexerp_fixtures"]
+after_install = ["nexerp.setup.sync_nexerp_fixtures"]
 
 # Apps
 # ------------------
