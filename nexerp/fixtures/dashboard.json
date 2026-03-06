@@ -1,0 +1,287 @@
+[
+ {
+  "cards": [
+   {
+    "card": "Total Incoming Bills"
+   },
+   {
+    "card": "Total Outgoing Bills"
+   },
+   {
+    "card": "Total Incoming Payment"
+   },
+   {
+    "card": "Total Outgoing Payment"
+   },
+   {
+    "card": "Annual Sales"
+   },
+   {
+    "card": "Total Sales Amount"
+   },
+   {
+    "card": "Sales Orders Count"
+   },
+   {
+    "card": "Sales Orders to Bill"
+   },
+   {
+    "card": "Sales Orders to Deliver"
+   },
+   {
+    "card": "Active Customers"
+   },
+   {
+    "card": "Average Sales Order Value"
+   },
+   {
+    "card": "Annual Purchase"
+   },
+   {
+    "card": "Total Purchase Amount"
+   },
+   {
+    "card": "Purchase Orders Count"
+   },
+   {
+    "card": "Purchase Orders to Bill"
+   },
+   {
+    "card": "Purchase Orders to Receive"
+   },
+   {
+    "card": "Active Suppliers"
+   },
+   {
+    "card": "Average Order Values"
+   },
+   {
+    "card": "Total Stock Value"
+   },
+   {
+    "card": "Total Active Items"
+   },
+   {
+    "card": "Total Warehouses"
+   },
+   {
+    "card": "Monthly Total Work Order"
+   },
+   {
+    "card": "Open Work Orders"
+   },
+   {
+    "card": "Ongoing Job Card"
+   },
+   {
+    "card": "WIP Work Orders"
+   },
+   {
+    "card": "Monthly Completed Work Order"
+   },
+   {
+    "card": "Manufactured Items Value"
+   },
+   {
+    "card": "Total Assets"
+   },
+   {
+    "card": "Asset Value"
+   },
+   {
+    "card": "New Assets (This Year)"
+   },
+   {
+    "card": "Open Projects"
+   },
+   {
+    "card": "Non Completed Tasks"
+   },
+   {
+    "card": "Timesheet Working Hours"
+   },
+   {
+    "card": "New Lead (Last 1 Month)"
+   },
+   {
+    "card": "Open Opportunity"
+   },
+   {
+    "card": "New Opportunity (Last 1 Month)"
+   },
+   {
+    "card": "Won Opportunity (Last 1 Month)"
+   },
+   {
+    "card": "Accepted Invoices"
+   },
+   {
+    "card": "Accepted With Warnings Invoices"
+   },
+   {
+    "card": "Rejected Invoices"
+   },
+   {
+    "card": "Ready for Batch Invoices"
+   },
+   {
+    "card": "Resend Invoices"
+   }
+  ],
+  "chart_options": null,
+  "charts": [
+   {
+    "chart": "Profit and Loss",
+    "width": "Full"
+   },
+   {
+    "chart": "Incoming Bills (Purchase Invoice)",
+    "width": "Half"
+   },
+   {
+    "chart": "Outgoing Bills (Sales Invoice)",
+    "width": "Half"
+   },
+   {
+    "chart": "Accounts Receivable Ageing",
+    "width": "Half"
+   },
+   {
+    "chart": "Accounts Payable Ageing",
+    "width": "Half"
+   },
+   {
+    "chart": "Budget Variance",
+    "width": "Full"
+   },
+   {
+    "chart": "Bank Balance",
+    "width": "Full"
+   },
+   {
+    "chart": "Sales Order Analysis",
+    "width": "Half"
+   },
+   {
+    "chart": "Sales Order Trends",
+    "width": "Half"
+   },
+   {
+    "chart": "Top Customers",
+    "width": "Half"
+   },
+   {
+    "chart": "Item Wise Annual Sales",
+    "width": "Half"
+   },
+   {
+    "chart": "Purchase Order Analysis",
+    "width": "Half"
+   },
+   {
+    "chart": "Purchase Order Trends",
+    "width": "Half"
+   },
+   {
+    "chart": "Top Suppliers",
+    "width": "Half"
+   },
+   {
+    "chart": "Material Request Analysis",
+    "width": "Half"
+   },
+   {
+    "chart": "Stock Value by Item Group",
+    "width": "Half"
+   },
+   {
+    "chart": "Warehouse wise Stock Value",
+    "width": "Half"
+   },
+   {
+    "chart": "Delivery Trends",
+    "width": "Half"
+   },
+   {
+    "chart": "Purchase Receipt Trends",
+    "width": "Half"
+   },
+   {
+    "chart": "Item Shortage Summary",
+    "width": "Full"
+   },
+   {
+    "chart": "Work Order Analysis",
+    "width": "Half"
+   },
+   {
+    "chart": "Pending Work Order",
+    "width": "Half"
+   },
+   {
+    "chart": "Produced Quantity",
+    "width": "Half"
+   },
+   {
+    "chart": "Job Card Analysis",
+    "width": "Half"
+   },
+   {
+    "chart": "Quality Inspection Analysis",
+    "width": "Half"
+   },
+   {
+    "chart": "Completed Operation",
+    "width": "Half"
+   },
+   {
+    "chart": "Asset Value Analytics",
+    "width": "Half"
+   },
+   {
+    "chart": "Category Wise Asset Value",
+    "width": "Half"
+   },
+   {
+    "chart": "Location Wise Asset Value",
+    "width": "Full"
+   },
+   {
+    "chart": "Incoming Leads",
+    "width": "Half"
+   },
+   {
+    "chart": "Won Opportunities",
+    "width": "Half"
+   },
+   {
+    "chart": "Opportunity Trends",
+    "width": "Half"
+   },
+   {
+    "chart": "Lead Source",
+    "width": "Half"
+   },
+   {
+    "chart": "Territory Wise Sales",
+    "width": "Half"
+   },
+   {
+    "chart": "Invoice Integration Statistics",
+    "width": "Full"
+   },
+   {
+    "chart": "Integration Status",
+    "width": "Full"
+   }
+  ],
+  "dashboard_name": "NexERP Dashboard",
+  "docstatus": 0,
+  "doctype": "Dashboard",
+  "is_default": 1,
+  "is_standard": 0,
+  "modified": "2026-03-05 00:00:00",
+  "module": "NexERP",
+  "name": "NexERP Dashboard"
+ }
+]

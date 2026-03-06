@@ -4,6 +4,18 @@ app_publisher = "Richin"
 app_description = "erpnext customization"
 app_email = "richinr@gmail.com"
 app_license = "mit"
+app_logo_url = "/assets/nexerp/images/nexicon.jpg"
+app_home = "/desk"
+
+
+# Only export Dashboard via fixtures (Workspace + Sidebar inserted via after_migrate)
+fixtures = [
+    {"dt": "Dashboard", "filters": [["name", "in", ["NexERP Dashboard"]]]},
+]
+
+
+after_migrate = ["nexerp.setup.sync_nexerp_fixtures"]
+after_install = ["nexerp.setup.sync_nexerp_fixtures"]
 
 # Apps
 # ------------------
@@ -25,8 +37,7 @@ app_license = "mit"
 # ------------------
 
 # include js, css files in header of desk.html
-# app_include_css = "/assets/nexerp/css/nexerp.css"
-# app_include_js = "/assets/nexerp/js/nexerp.js"
+app_include_js = "/assets/nexerp/js/sidebar_lock.js"
 
 # include js, css files in header of web template
 # web_include_css = "/assets/nexerp/css/nexerp.css"
@@ -91,8 +102,11 @@ app_license = "mit"
 # Uninstallation
 # ------------
 
-# before_uninstall = "nexerp.uninstall.before_uninstall"
-# after_uninstall = "nexerp.uninstall.after_uninstall"
+# boot_session = "nexerp.api.override_sidebar_data"
+
+# boot_session
+# ------------
+boot_session = ["nexerp.api.override_sidebar_data"]
 
 # Integration Setup
 # ------------------
@@ -249,4 +263,3 @@ app_license = "mit"
 # ------------
 # List of apps whose translatable strings should be excluded from this app's translations.
 # ignore_translatable_strings_from = []
-
